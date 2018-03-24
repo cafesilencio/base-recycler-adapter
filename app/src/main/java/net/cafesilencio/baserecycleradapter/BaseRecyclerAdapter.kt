@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView
 
 
 /**
- * Created by yoda on 2/11/18.
+ * Created by Seth Bourget on 2/11/18.
  */
 abstract class BaseRecyclerAdapter<T, U : RecyclerView.ViewHolder>(private val hasSameIdFunc: (T, T) -> Boolean): RecyclerView.Adapter<U>() {
 
