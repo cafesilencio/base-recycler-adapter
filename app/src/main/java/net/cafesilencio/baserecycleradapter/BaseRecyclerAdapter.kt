@@ -2,7 +2,6 @@ package net.cafesilencio.baserecycleradapter
 
 import com.jakewharton.rxrelay2.PublishRelay
 import io.reactivex.Observable
-
 import android.support.v7.util.DiffUtil
 import android.support.v7.widget.RecyclerView
 
